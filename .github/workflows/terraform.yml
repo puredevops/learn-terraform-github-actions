@@ -22,8 +22,9 @@ jobs:
           aws-region: us-east-1
 
 
-      - name: Setup Terraform
-        uses: hashicorp/setup-terraform@v1
+      - name: HashiCorp - Setup Terraform
+        uses: hashicorp/setup-terraform@v1.2.1
+
 
       - name: Terraform Format
         id: fmt
